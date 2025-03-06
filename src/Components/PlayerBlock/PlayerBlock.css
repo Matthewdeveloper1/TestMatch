@@ -1,0 +1,56 @@
+
+.playerBlock{
+  width: 100%;
+}
+
+.DropUser{
+  display: flex;
+  font-family: 'Inter';
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  gap: 8px;
+  background-color: #101318;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.DropUser img{
+  height: 26px;
+  width: 26px;
+}
+
+.DropUser h3{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+}
+
+.num{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fafafa53;
+}
+
+.count{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+  
+}
+
+.player{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+

@@ -1,0 +1,25 @@
+.dropdown {
+  overflow: hidden; 
+  transition: max-height 0.4s ease, opacity 0.4s ease; 
+  max-height: 0; 
+  opacity: 0; 
+  margin-top: 0; 
+}
+
+.dropdown.open {
+  max-height: 500px; 
+  opacity: 1; 
+}
+
+.grid {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ align-items: center;
+ padding-top: 32px; 
+ gap: 32px;
+}
+
+
+

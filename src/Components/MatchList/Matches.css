@@ -1,0 +1,121 @@
+.list{
+  width: 100%;
+  height: auto;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-top: 53px;
+}
+
+.BlockBtnErr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 53px;
+  gap: 12px;
+}
+.list ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 12px
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  width: 26px;
+  height: 26px;
+
+}
+
+.defSpinner{
+  width: 26px;
+  height: 26px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.updateBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  border: none;
+  background-color: #EB0237;
+  padding: 16px;
+  border-radius: 4px;
+  gap: 10px;
+  padding: 16px;
+  margin-right: 20px;
+}
+
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #701328;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  border: none;
+  color: #787878;
+  cursor: not-allowed;
+  padding: 16px;
+  border-radius: 4px;
+  gap: 10px;
+  padding: 16px;
+  margin-right: 20px;
+}
+
+.loading:hover{
+  cursor: not-allowed;
+}
+
+.updateBtn:hover {
+  cursor: pointer;
+}
+
+.updateBtn:active{
+  background-color: #A01131;
+}
+
+.loadingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  width: 100%;
+  font-size: 32px;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+}
+
+
+
+.errorContainer {
+  color: red; 
+}
+
+
+

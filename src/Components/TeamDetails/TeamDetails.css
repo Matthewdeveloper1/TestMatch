@@ -1,0 +1,55 @@
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+  background-color: #101318;
+  font-weight: bold; 
+  display: flex;
+  flex-direction: row; 
+  padding: 14px;
+  border-radius: 4px;
+}
+
+.summary span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.divider{
+  border-right: 1px solid #141A21;
+  border-left: 1px solid #141A21;
+}
+
+
+.teamPlayers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.num{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fafafa53;
+}
+
+.count{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+}

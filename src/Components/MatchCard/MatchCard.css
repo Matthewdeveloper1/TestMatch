@@ -1,0 +1,115 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.MatchCard {
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #0B0E12;
+  width: -webkit-fill-available;
+  margin: 0 20px; 
+  padding: 16px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mainBlock {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  gap: 12px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: #EB0237;
+  font-size: 12px;
+  padding: 6px 2px; 
+  border-radius: 4px;
+  width: 92px;
+}
+
+.TimeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.HomeTeam {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.awayTeam {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ongoing {
+  background-color: #43AD28; 
+}
+
+.finished {
+  background-color: #EB0237; 
+}
+
+.none {
+  background-color: #EB6402; 
+}
+
+.arrowIcon {
+  animation-duration: 0.4s; 
+  animation-fill-mode: forwards; 
+}
+
+.arrowIcon.rotated {
+  animation-name: rotate; 
+}
+
+.arrowIcon:not(.rotated) {
+  animation-name: rotate-back; 
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg); 
+  }
+}
+
+@keyframes rotate-back {
+  0% {
+    transform: rotate(180deg); 
+  }
+  100% {
+    transform: rotate(0deg); 
+  }
+}
