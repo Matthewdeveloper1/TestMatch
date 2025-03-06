@@ -1,21 +1,16 @@
 // Loading.js
 import React, { useState, useEffect } from 'react';
-import './Loading.css'
+import './Loading.css';
 
 const Loading = () => {
   const [loadingDots, setLoadingDots] = useState('');
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setLoadingDots(prevDots => {
-        if (prevDots.length < 3) {
-          return prevDots + '.';
-        }
-        return '';
-      });
-    }, 300); 
+      setLoadingDots(prevDots => (prevDots.length < 3 ? prevDots + '.' : ''));
+    }, 300);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
   return (

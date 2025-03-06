@@ -1,28 +1,29 @@
-.list{
+.list {
   width: 100%;
   height: auto;
 }
 
-.logo{
-  margin-left: 20px;
-  margin-top: 53px;
+.logo {
+  margin-left: 1.25rem;
+  margin-top: 3.31rem;
 }
 
-.BlockBtnErr{
+.BlockBtnErr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 53px;
-  gap: 12px;
-}
-.list ul{
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-  gap: 12px
+  margin-top: 3.31rem;
+  gap: 0.75rem;
 }
 
-.nav{
+.list ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 0.75rem;
+}
+
+.nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,14 +32,13 @@
 
 .spinner {
   animation: spin 1s linear infinite;
-  width: 26px;
-  height: 26px;
-
+  width: 1.625rem;
+  height: 1.625rem;
 }
 
-.defSpinner{
-  width: 26px;
-  height: 26px;
+.defSpinner {
+  width: 1.625rem;
+  height: 1.625rem;
 }
 
 @keyframes spin {
@@ -53,37 +53,35 @@
   color: #ffff;
   font-family: 'Inter';
   font-weight: 600;
-  font-size: 18px;
-  line-height: 21.78px;
+  font-size: 1.125rem;
+  line-height: 1.36rem;
   border: none;
   background-color: #EB0237;
-  padding: 16px;
-  border-radius: 4px;
-  gap: 10px;
-  padding: 16px;
-  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  gap: 0.625rem;
+  margin-right: 1.25rem;
 }
 
-.loading{
+.loading {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #701328;
   font-family: 'Inter';
   font-weight: 600;
-  font-size: 18px;
-  line-height: 21.78px;
+  font-size: 1.125rem;
+  line-height: 1.36rem;
   border: none;
   color: #787878;
   cursor: not-allowed;
-  padding: 16px;
-  border-radius: 4px;
-  gap: 10px;
-  padding: 16px;
-  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  gap: 0.625rem;
+  margin-right: 1.25rem;
 }
 
-.loading:hover{
+.loading:hover {
   cursor: not-allowed;
 }
 
@@ -91,31 +89,23 @@
   cursor: pointer;
 }
 
-.updateBtn:active{
+.updateBtn:active {
   background-color: #A01131;
 }
 
-.loadingContainer{
+.loadingContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; 
+  height: 80vh;
   width: 100%;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .errorContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; 
+  height: 80vh;
+  color: red;
 }
-
-
-
-.errorContainer {
-  color: red; 
-}
-
-
-

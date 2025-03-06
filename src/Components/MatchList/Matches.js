@@ -37,7 +37,7 @@ const MatchesList = () => {
     if (isLoading) {
       timer = setTimeout(() => {
         setShowLoading(true);
-      }, 400); 
+      }, 500); 
     } else {
       setShowLoading(false); 
     }

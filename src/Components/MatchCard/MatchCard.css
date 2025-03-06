@@ -7,27 +7,31 @@
 
 .MatchCard {
   display: flex;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   justify-content: space-between;
   flex-direction: column;
   background-color: #0B0E12;
   width: -webkit-fill-available;
-  margin: 0 20px; 
-  padding: 16px;
+  margin: 0 1.25rem;
+  padding: 1rem;
   font-family: 'Inter';
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
+}
+
+.MatchCard:hover{
+  cursor: pointer;
 }
 
 .mainBlock {
   display: flex;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   justify-content: space-between;
   width: -webkit-fill-available;
-  gap: 12px;
+  gap: 0.75rem;
   font-family: 'Inter';
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -38,16 +42,16 @@
   font-family: 'Inter';
   font-weight: 600;
   background-color: #EB0237;
-  font-size: 12px;
-  padding: 6px 2px; 
-  border-radius: 4px;
-  width: 92px;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.125rem;
+  border-radius: 0.25rem;
+  width: 5.75rem;
 }
 
 .TimeBlock {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
 .score {
@@ -55,20 +59,20 @@
   justify-content: center;
   align-items: center;
   font-family: 'Inter';
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .HomeTeam {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 0.875rem;
 }
 
 .awayTeam {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 0.875rem;
 }
 
 .ongoing {
